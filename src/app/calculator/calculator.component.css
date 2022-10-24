@@ -1,0 +1,118 @@
+.chiffre {
+  background-color: #d9d9d9;
+  border-radius: 100%;
+  border: none;
+  margin: 5%;
+}
+
+h1{
+    font-size: 55px;
+}
+
+p{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.point{ grid-column: 3;
+    grid-row: 9;}
+
+.ac {
+    grid-column: 1;
+    grid-row: 5;
+
+}
+
+.c{
+    color: #fd8900;
+}
+
+.operator {
+  background-color: #fd8900;
+  border-radius: 100%;
+  border: none;
+  color: white;
+  margin: 5%;
+}
+.resultat {
+  display: flex;
+}
+.all {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+}
+.pourcent{grid-column: 2/4;
+    grid-row: 5;
+}
+button{
+    font-size: 30px;
+}
+.one {
+  grid-column: 1/3;
+  grid-row: 9;
+}
+.two {
+  grid-column: 1;
+  grid-row: 8;
+}
+.three {
+  grid-column: 2;
+  grid-row: 8;
+}
+.four {
+  grid-column: 3;
+  grid-row: 8;
+}
+.five {
+  grid-column: 1;
+  grid-row: 7;
+}
+.six {
+  grid-column: 2;
+  grid-row: 7;
+}
+.seven {
+  grid-column: 3;
+  grid-row: 7;
+}
+.eight{grid-column:1;
+    grid-row: 6;}
+.nine {
+  grid-column: 2;
+  grid-row: 6;
+}
+.teen {
+grid-column: 3;
+  grid-row: 6;
+}
+.eleveen {
+  grid-column: 4;
+  grid-row: 7;
+}
+.twelve {
+  grid-column: 4;
+  grid-row: 8;
+}
+.thirteen {
+  grid-column: 4;
+  grid-row: 6;
+}
+.fourteen {
+  grid-column: 4;
+  grid-row: 5;
+}
+.fifteen {
+  grid-column: 4;
+  grid-row: 9;
+}
+.sixteen {
+  grid-column: 1/3;
+  grid-row: 2;
+  display: flex;
+  font-weight: bold;
+}
+.resultat{ grid-column: 1/4;
+    grid-row: 3;}
